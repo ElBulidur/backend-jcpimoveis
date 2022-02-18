@@ -1,16 +1,170 @@
 {
-  "posts":[
+  "owners": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "createdAt": "2022-02-17T01:47:27.477Z",
+      "name": "Carroll Cruickshank",
+      "avatar": "https://cdn.fakercloud.com/avatars/polarity_128.jpg",
+      "phone": "671-489-9281",
+      "email": "Ova.Crooks@hotmail.com",
+      "properties": [],
+      "id": 1
+    },
+    {
+      "createdAt": "2022-02-17T02:27:30.580Z",
+      "name": "Jessica Gleason DDS",
+      "avatar": "https://cdn.fakercloud.com/avatars/justinrhee_128.jpg",
+      "phone": "662-869-3262",
+      "email": "Shane.Walsh@gmail.com",
+      "properties": [],
+      "id": 2
+    },
+    {
+      "createdAt": "2022-02-17T11:39:46.927Z",
+      "name": "Chad Pfannerstill",
+      "avatar": "https://cdn.fakercloud.com/avatars/richwild_128.jpg",
+      "phone": "671-452-8662",
+      "email": "Cristal.Stoltenberg@gmail.com",
+      "properties": [],
+      "id": 3
+    },
+    {
+      "createdAt": "2022-02-17T03:45:19.325Z",
+      "name": "Lynn Wyman",
+      "avatar": "https://cdn.fakercloud.com/avatars/justinrgraham_128.jpg",
+      "phone": "356-758-9425",
+      "email": "Jay92@yahoo.com",
+      "properties": [],
+      "id": 4
+    },
+    {
+      "createdAt": "2022-02-17T04:47:57.564Z",
+      "name": "Mr. Grant Bauch",
+      "avatar": "https://cdn.fakercloud.com/avatars/normanbox_128.jpg",
+      "phone": "559-243-7471",
+      "email": "Garett_Jerde@hotmail.com",
+      "properties": [],
+      "id": 5
+    },
+    {
+      "createdAt": "2022-02-17T07:18:58.666Z",
+      "name": "Robert Torp",
+      "avatar": "https://cdn.fakercloud.com/avatars/sachacorazzi_128.jpg",
+      "phone": "984-917-2960",
+      "email": "Rose71@hotmail.com",
+      "properties": [],
+      "id": 6
+    },
+    {
+      "createdAt": "2022-02-17T04:17:56.009Z",
+      "name": "Marcos Leffler",
+      "avatar": "https://cdn.fakercloud.com/avatars/shinze_128.jpg",
+      "phone": "839-414-9086",
+      "email": "Isadore.Torp@gmail.com",
+      "properties": [],
+      "id": 7
+    },
+    {
+      "createdAt": "2022-02-17T19:01:54.644Z",
+      "name": "Miss Lyle Swift",
+      "avatar": "https://cdn.fakercloud.com/avatars/darylws_128.jpg",
+      "phone": "206-788-3672",
+      "email": "Marlen16@yahoo.com",
+      "properties": [],
+      "id": 8
+    },
+    {
+      "createdAt": "2022-02-17T00:28:20.833Z",
+      "name": "Austin Schultz",
+      "avatar": "https://cdn.fakercloud.com/avatars/marshallchen__128.jpg",
+      "phone": "398-316-4200",
+      "email": "Shanon86@hotmail.com",
+      "properties": [],
+      "id": 9
+    },
+    {
+      "createdAt": "2022-02-17T06:54:43.193Z",
+      "name": "Florence Murazik",
+      "avatar": "https://cdn.fakercloud.com/avatars/kudretkeskin_128.jpg",
+      "phone": "854-680-5452",
+      "email": "Lisette3@hotmail.com",
+      "properties": [],
+      "id": 10
+    },
+    {
+      "createdAt": "2022-02-17T06:54:43.193Z",
+      "name": "Júlio Pereira",
+      "avatar": "https://cdn.fakercloud.com/avatars/kudretkeskin_128.jpg",
+      "phone": "33 9 9154-2651",
+      "email": "juliocezar.marketing@gmail.com",
+      "properties": [
+        1,
+        2
+      ],
+      "id": 11
     }
   ],
-  "comments" : [
+  "properties": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "createdAt": "2022-02-17T04:49:52.986Z",
+      "name": "Título do imovél",
+      "tipo": [
+        "Apartamento",
+        "Casa"
+      ],
+      "valor": 300000,
+      "quartos": 3,
+      "banheiros": 3,
+      "mobiliado": false,
+      "area": 80,
+      "venda": true,
+      "aluguel": false,
+      "dataAnuncio": "2022-02-14T18:30:00Z",
+      "endereco": {
+        "cep": "01001-000",
+        "logradouro": "Praça da Sé",
+        "complemento": "lado ímpar",
+        "bairro": "Sé",
+        "localidade": "São Paulo",
+        "uf": "SP",
+        "ibge": "3550308",
+        "gia": "1004",
+        "ddd": "11",
+        "siafi": "7107"
+      },
+      "idOwner": 1,
+      "condominio": 450.9,
+      "id": 1
+    },
+    {
+      "createdAt": "2022-02-17T05:09:45.241Z",
+      "name": "Título do imovél",
+      "tipo": [
+        "Apartamento",
+        "Casa"
+      ],
+      "valor": 300000,
+      "quartos": 3,
+      "banheiros": 3,
+      "mobiliado": false,
+      "area": 80,
+      "venda": true,
+      "aluguel": false,
+      "dataAnuncio": "2022-02-14T18:30:00Z",
+      "endereco": {
+        "cep": "01001-000",
+        "logradouro": "Praça da Sé",
+        "complemento": "lado ímpar",
+        "bairro": "Sé",
+        "localidade": "São Paulo",
+        "uf": "SP",
+        "ibge": "3550308",
+        "gia": "1004",
+        "ddd": "11",
+        "siafi": "7107"
+      },
+      "idOwner": 1,
+      "condominio": 450.9,
+      "id": 2
     }
   ]
 }

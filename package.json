@@ -1,7 +1,7 @@
 {
-  "name": "json-server-deploy",
+  "name": "json-server-jcp-imoveis",
   "version": "1.0.0",
-  "description": "Simple json database to deploy to the host of your choice",
+  "description": "Simple json database to app jcpimoveis",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
