@@ -106,65 +106,32 @@
   "properties": [
     {
       "createdAt": "2022-02-17T04:49:52.986Z",
-      "name": "Título do imovél",
-      "tipo": [
-        "Apartamento",
-        "Casa"
-      ],
-      "valor": 300000,
-      "quartos": 3,
-      "banheiros": 3,
-      "mobiliado": false,
+      "type": "Apartamento",
+      "value": "R$ 300.000,00",
       "area": 80,
-      "venda": true,
-      "aluguel": false,
-      "dataAnuncio": "2022-02-14T18:30:00Z",
-      "endereco": {
-        "cep": "01001-000",
-        "logradouro": "Praça da Sé",
-        "complemento": "lado ímpar",
-        "bairro": "Sé",
-        "localidade": "São Paulo",
-        "uf": "SP",
-        "ibge": "3550308",
-        "gia": "1004",
-        "ddd": "11",
-        "siafi": "7107"
+      "bedRooms": 3,
+      "BathRooms": 2,
+      "vacancies": 1,
+      "modality": "Venda",
+      "furnished": false,
+      "condominium": "R$ 450,90",
+      "address": {
+        "cep": "35024-410",
+        "logradouro": "Rua Adrualdo Monte Alto",
+        "number": 418,
+        "complemento": "",
+        "bairro": "Sir",
+        "localidade": "Governador Valadares",
+        "uf": "MG",
+        "ibge": "3127701",
+        "gia": "",
+        "ddd": "33",
+        "siafi": "4553"
       },
-      "idOwner": 1,
-      "condominio": 450.9,
-      "id": 1
-    },
-    {
-      "createdAt": "2022-02-17T05:09:45.241Z",
-      "name": "Título do imovél",
-      "tipo": [
-        "Apartamento",
-        "Casa"
-      ],
-      "valor": 300000,
-      "quartos": 3,
-      "banheiros": 3,
-      "mobiliado": false,
-      "area": 80,
-      "venda": true,
-      "aluguel": false,
-      "dataAnuncio": "2022-02-14T18:30:00Z",
-      "endereco": {
-        "cep": "01001-000",
-        "logradouro": "Praça da Sé",
-        "complemento": "lado ímpar",
-        "bairro": "Sé",
-        "localidade": "São Paulo",
-        "uf": "SP",
-        "ibge": "3550308",
-        "gia": "1004",
-        "ddd": "11",
-        "siafi": "7107"
-      },
-      "idOwner": 1,
-      "condominio": 450.9,
-      "id": 2
+      "announcementAt": "2022-02-14T18:30:00Z",
+      "urlImages": [],
+      "idOwner": 11,
+      "id": 3
     }
   ]
 }
